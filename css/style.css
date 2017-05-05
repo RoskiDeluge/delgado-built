@@ -1,0 +1,47 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+.link_li_space {
+  margin-left:5px;
+}
+.about_div {
+  padding-top:80px;
+  background-image:url(https://dl.dropboxusercontent.com/s/86oer4msfyil1zo/topography.png?dl=0);
+}
+.work_div {
+  padding-top:20px;
+  background-image:url(https://dl.dropboxusercontent.com/s/q38ehp3950mbp34/congruent_outline.png?dl=0);
+}
+.contact_div {
+    padding-top:20px;
+    padding-bottom:20px;
+    background-image:url(https://dl.dropboxusercontent.com/s/ygmyl5rh335vi0o/congruent_pentagon.png?dl=0);
+}
+.light_text {
+  color:#ededed;
+}
+.row-padding {
+  padding-top:20px;
+}
+/* unvisited link */
+.figure-caption a:link {
+    color: #80ccff;
+}
+
+/* visited link */
+.figure-caption a:visited {
+    color: #80ccff;
+}
+
+/* mouse over link */
+.figure-caption a:hover {
+    color: #80ccff;
+    text-decoration: underline;
+}
+
+/* selected link */
+.figure-caption a:active {
+    color: #80ccff;
+}
