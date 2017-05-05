@@ -14,7 +14,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+  <!––The navigation bar starts here--> 
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,6 +39,7 @@
     </span>
   </div>
 </nav>
+<!––The about Section--> 
 <section id="about_id"><div class="about_div">
   <div class="container">
     <div class="row">
@@ -46,11 +48,13 @@
           of data driven systems and web applications for the marketing function of for-profit and nonprofit organizations. </p>
       </div>
       <div class="col">
-        <img src="https://dl.dropboxusercontent.com/s/5r8xngv1vrutlnk/Screen%20Shot%202017-04-09%20at%201.35.23%20PM.png?dl=0" class="rounded-circle img-fluid" width="170"></img>
+        <!--6 year old me-->
+        <img src="https://dl.dropboxusercontent.com/s/gqpbdznm6dt1i29/Screen%20Shot%202017-05-04%20at%203.44.25%20PM.png?dl=0" class="rounded-circle img-fluid" width="170"></img>
       </div>
     </div>
   </div>
 </div></section>
+<!––The portfolio section--> 
 <section id="port_id"><div class="work_div">
 <div class="container">
       <h1 class="display-4 text-center light_text">Portfolio</h1>
@@ -85,17 +89,19 @@
     </div>
   </div>
   </div></section>
+<!––The contact me section--> 
 <section id="contact_id"><div class="contact_div">
     <div class="container">
           <h1 class="display-4 text-center">Contact</h1>
     <div class="row row-padding">
       <div class="col">
-        <form>
+        <form action="https://formspree.io/jthomas216@gmail.com"
+      method="POST">
           <div class="form-group">
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"  name="_replyto">
           </div>
           <div class="form-group">
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
@@ -103,7 +109,8 @@
           <div class="form-group">
             <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Message"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Send</button>
+          <div class="g-recaptcha" data-sitekey="6LeIECAUAAAAAPd7hF22aNIqH9LgZ-DbUEK7rHv-"></div>
+          <button class="btn btn-primary" input type="submit" value="Send">Send</button>
         </form>
       </div>
       <div class="col">
@@ -113,9 +120,10 @@
   </div>
     <hr class="my-4">
 
-  <footer class="text-center" target="_blank">Made by <a href="https://codepen.io/samoht513/">Me</a></footer>
+  <footer class="text-center" target="_blank">Made by <a href="https://github.com/jthomas216">Me</a></footer>
   </div></section>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
     <script src="js/index.js"></script>
 
