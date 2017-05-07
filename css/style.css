@@ -45,3 +45,30 @@
 .figure-caption a:active {
     color: #80ccff;
 }
+.efefef {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.portHead {
+  color: #efefef;
+}
+.tech {
+  color: #00ba28;
+  font-weight:bold;
+}
+.blurb {
+    color: #efefef;
+}
+.portDiv {
+  margin-top: 50px;
+}
+.links {
+  margin-top: 20px;
+}
+.links a:link {
+  margin-right:15px;
+}
