@@ -29,3 +29,13 @@ $(window).scroll(function() {
     }
 
 }).scroll();
+
+var userFeed = new Instafeed({
+        get: 'user',
+        userId: '19370470',
+        filter: function(image) {
+            return image.tags.indexOf('warehouse') >= 0;
+        }
+    });
+    userFeed.run();
+
